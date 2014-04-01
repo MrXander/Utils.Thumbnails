@@ -1,0 +1,8 @@
+﻿Name: Thumbnails
+Author: Nikita Belyaev
+Website: https://orchardthumbnails.codeplex.com/
+Version: 1.0
+OrchardVersion: 1.0
+Description: Automatically creates thumbnails for loaded images in media library
+Dependencies: Orchard.MediaLibrary
+Category: Media

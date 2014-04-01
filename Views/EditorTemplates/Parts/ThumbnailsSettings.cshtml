@@ -1,0 +1,17 @@
+﻿@model Utils.Thumbnails.Models.ThumbnailsSettingsPart
+
+<fieldset>
+    <legend>@T("Thumbnails")</legend>
+    <div>
+        @Html.TextBoxFor(m => m.Folder, new { @class = "text medium" })
+        <span class="hint">@T("Folder name for thumbnails. Default: 'Thumbnails' subfolder ")</span>
+    </div>
+    <div>
+        @Html.TextBoxFor(m => m.MaxWidth, new { @class = "text medium" })
+        <span class="hint">@T("Max width for thumbnail")</span>
+    </div>    
+    <div>
+        @Html.TextBoxFor(m => m.MaxHeight, new { @class = "text medium" })        
+        <span class="hint">@T("Max height for thumbnail")</span>
+    </div>
+</fieldset>
